@@ -1,0 +1,84 @@
+# Spice Melange
+sr_spice = {
+	AI_category = strategic_resource
+	prerequisites = { "null" }
+	tradable = yes
+	is_rare = yes
+	is_global = yes
+	
+	modifier = {
+		leader_age = 250
+	}
+}
+
+# Ixian Technology
+sr_ixian = {
+	AI_category = strategic_resource
+	prerequisites = { "null" }
+	tradable = yes
+	is_rare = yes
+}
+
+# Mentats
+sr_mentats = {
+	AI_category = strategic_resource
+	prerequisites = { "null" }
+	tradable = yes
+	is_rare = yes
+}
+
+# Truthsayers
+sr_truthsayers = {
+	AI_category = strategic_resource
+	prerequisites = { "null" }
+	tradable = yes
+	is_rare = yes
+}
+
+# Tleilaxu Technology
+sr_tleilaxu = {
+	AI_category = strategic_resource
+	prerequisites = { "null" }
+	tradable = yes
+	is_rare = yes
+}
+
+# Guild Technology
+sr_guild = {
+	AI_category = strategic_resource
+	prerequisites = { "null" }
+	tradable = yes
+	is_rare = yes
+}
+
+# Sardaukar
+sr_sardaukar = {
+	AI_category = strategic_resource
+	prerequisites = { "null" }
+	tradable = yes
+	is_rare = yes
+}
+
+# Swordmasters
+sr_swordmasters = {
+	AI_category = strategic_resource
+	prerequisites = { "null" }
+	tradable = yes
+	is_rare = yes
+}
+
+# Elacca Wood
+sr_elacca = {
+	AI_category = strategic_resource
+	prerequisites = { "null" }
+	tradable = yes
+	is_rare = yes
+}
+
+# Suk School
+sr_suk = {
+	AI_category = strategic_resource
+	prerequisites = { "null" }
+	tradable = yes
+	is_rare = yes
+}

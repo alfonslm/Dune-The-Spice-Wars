@@ -1,0 +1,26 @@
+DUNE = {
+    portraits = {
+        "atreides"
+		"bene_gesserit"
+		"bene_tleilaxu"
+		"corrino"
+		"ecaz"
+		"ezharian"
+		"fremen"
+		"ginaz"
+		"guild"
+		"harkonnen"
+		"khumali"
+		"moritani"
+		"nebiro"
+		"omnius"
+		"ordos"
+		"richese"
+		"tantor"
+		"vernius"
+		"rayki"
+    }
+
+    graphical_culture = mammalian_01
+    move_pop_sound_effect = "moving_pop_confirmation"
+}

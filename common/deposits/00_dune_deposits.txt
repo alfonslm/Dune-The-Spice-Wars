@@ -1,0 +1,68 @@
+# Possible Deposit Variables
+# modifier - weight, will replace the weight value
+# modifier - factor, will multiply the weight value
+# resources, resource and amount
+# station = station class in orbit to gather
+# if you mix resources that are not supposed to be collected by an orbital station remember to put is_orbital_slot = no
+
+#SPICE
+d_vast_spice_deposit = {
+	resources = { sr_spice = 3}
+	station = shipclass_mining_station
+	orbital_weight = {
+		weight = 0
+	}
+	
+	drop_weight = {
+		weight = 0
+		modifier = {
+			weight = 0
+			planet = {
+				OR = {
+					is_planet_class = pc_continental
+					is_planet_class = pc_habitat
+					is_planet_class = pc_ringworld_habitable
+					is_planet_class = pc_tropical
+					is_planet_class = pc_ocean
+					is_planet_class = pc_arid
+					is_planet_class = pc_savannah
+					is_planet_class = pc_gaia
+					is_planet_class = pc_tundra
+					is_planet_class = pc_alpine
+					is_planet_class = pc_nuked
+					is_planet_class = pc_arctic
+					is_planet_class = pc_desert
+				}
+			}
+		}
+		modifier = {
+			weight = 0
+			planet = {
+				is_planet_class = pc_dune
+			}
+		}
+	}
+}
+
+garden_mineral_energy_deposit = {
+	resources = {
+		energy = 4
+		minerals = 4
+	}
+	station = shipclass_mining_station
+	orbital_weight = {
+		weight = 20
+	}
+	
+	drop_weight = {
+		weight = 0
+		modifier = {
+			weight = 20
+			planet = {
+				OR = {
+					is_planet_class = pc_garden
+				}
+			}
+		}
+	}
+}
