@@ -30,19 +30,10 @@
 #	moon_size = { min = @habitable_moon_min_size max = @habitable_moon_max_size }
 #	
 #	colonizable = yes
-#	#colonization_tech = { "tech_tropical_colonization@1" }
+#	colonization_tech = { "tech_tropical_colonization@1" }
+# 	space_monster_target = yes	# Country types with space monster AI will wander to this planet type if set to yes
 #}
 ###
-
-
-# Planet Variables
-
-@planet_standard_scale = 11
-@habitable_moon_max_size = 15
-@habitable_moon_min_size = 10
-@habitable_min_distance = 60
-@habitable_max_distance = 100
-@habitable_spawn_odds = 1
 
 # ###########
 # Habitable Planets
@@ -51,7 +42,7 @@
 # Dry
 pc_dune = {
 	entity = "dune_planet"
-	icon_frame = 24
+	icon_frame = 1
 	
 	climate = "dry"
 
@@ -176,6 +167,7 @@ random_list = {
 		"pc_shielded"
 		"pc_garden"
 		"pc_gaia"
+        "pc_shrouded"		
+        "pc_broken"
 	}
 }
-				
